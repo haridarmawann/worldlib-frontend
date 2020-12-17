@@ -1,0 +1,176 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #06122D;
+}
+
+.navbar-light .navbar-brand img {
+  max-height: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #06122D;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.navbar-light .btn-login {
+  background-color: #353A69;
+  color: #ffffff;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 30px;
+}
+
+.navbar-light .btn-login:hover {
+  background-color: #6C77D3;
+  color: #ffffff;
+}
+
+.navbar-light .btn-nabvar-right {
+  height: 40px;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#C6C6C6), color-stop(49.48%, #FFFFFF));
+  background: linear-gradient(180deg, #C6C6C6 0%, #FFFFFF 49.48%);
+  min-height: 421px;
+  padding-top: 170px;
+}
+
+header h1 {
+  color: #353A69;
+  font-family: 'Crete Round', serif;
+  font-weight: 500;
+  font-size: large;
+  font-size: 70px;
+}
+
+header h2 {
+  color: #353A69;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: large;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+header p {
+  color: #040F2A;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.section-content {
+  min-height: 406px;
+  background-color: #ffffff;
+  margin-bottom: 130px;
+}
+
+.section-content .card-country {
+  min-height: 336px;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.section-content .country {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.section-content .item {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.section-content .btn-view-details {
+  background: #FD6647;
+  color: #ffffff;
+  font-size: large;
+  font-weight: 700;
+}
+
+.section-item {
+  min-height: 406px;
+  background-color: #ffffff;
+  margin-bottom: -210px;
+}
+
+.section-item .section-item-header {
+  margin-top: 140px;
+}
+
+.section-item .section-item-header h2 {
+  color: #353A69;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: large;
+  font-size: 55px;
+}
+
+.section-item .section-item-header p {
+  color: #040F2A;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.section-detail-item {
+  margin-top: -400px;
+  min-height: 100vh;
+}
+
+.section-detail-item h2 {
+  margin-top: 20px;
+  color: #353A69;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: large;
+  font-size: 30px;
+}
+
+.section-detail-item .card-detail-item {
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 100px;
+}
+
+.section-detail-item .card-detail-item .new1 {
+  color: #353A69;
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.section-detail-item .card-detail-item .new2 {
+  color: #989898;
+  font-family: 'Crete Round', serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.section-detail-item .gallery .xzoom-container {
+  display: block;
+}
+
+.section-detail-item .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-detail-item hr {
+  margin-top: 50px;
+  color: #989898;
+}
+
+footer .footer-copyright {
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

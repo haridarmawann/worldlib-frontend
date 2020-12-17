@@ -1,0 +1,186 @@
+body{
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #06122D;
+}
+// navbar
+.navbar-light{
+  .navbar-brand{
+    img{
+      max-height: 25px;
+    }
+  }
+
+
+  .navbar-nav{
+    .nav-link{
+      color: #06122D;
+      font-size: larger;
+      font-weight: 700;
+    }
+
+  }
+
+  .btn-login{
+    background-color: #353A69;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 30px;
+
+    &:hover{
+        background-color: #6C77D3;
+        color: #ffffff;
+    }
+  }
+  
+  .btn-nabvar-right{
+
+    height: 40px;
+   
+  }
+}
+header{
+  background: linear-gradient(180deg, #C6C6C6 0%, #FFFFFF 49.48%);
+  min-height: 421px;
+  padding-top: 170px;
+
+  h1{
+    color:#353A69;
+    font-family: 'Crete Round', serif;
+    font-weight: 500;
+    font-size: large;
+    font-size: 70px;
+
+  }
+  h2{
+    color:#353A69;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: large;
+    font-size: 55px;
+    margin-bottom: 30px;
+
+  }
+  p{
+        color: #040F2A;
+        font-weight:400;
+        font-size: 22px;
+        margin-top: 15px;
+  }
+}
+.section-content{
+  min-height: 406px;
+  background-color: #ffffff;
+  margin-bottom: 130px;
+ 
+  .card-country{
+    min-height: 336px;
+    padding: 30px;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .country{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .item{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .btn-view-details{
+    background: #FD6647;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 700;
+    
+  }
+}
+
+.section-item{
+  min-height: 406px;
+  background-color: #ffffff;
+  margin-bottom: -210px;
+
+  .section-item-header{
+    margin-top: 140px;
+    h2{
+      color:#353A69;
+      font-family: 'Crete Round', serif;
+      font-weight: 400;
+      font-size: large;
+      font-size: 55px;
+    }
+    p{
+      color: #040F2A;
+        font-weight:400;
+        font-size: 25px;
+    }
+  }
+}
+.section-detail-item{
+  margin-top: -400px;
+  min-height: 100vh;
+  
+  h2{
+      margin-top: 20px;
+      color:#353A69;
+      font-family: 'Crete Round', serif;
+      font-weight: 400;
+      font-size: large;
+      font-size: 30px;
+  }
+  
+  .card-detail-item{
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 100px;
+
+    .new1{
+      color:#353A69;
+      font-family: 'Crete Round', serif;
+      font-weight: normal;
+      font-size: 20px;
+     
+    }
+
+    .new2{
+      color: #989898;
+      font-family: 'Crete Round', serif;
+      font-weight: lighter;
+      font-size: 15px;
+    }
+  }
+
+  .gallery{
+    .xzoom-container{
+        display: block;
+        .xzoom{
+            width: 100%;
+            box-shadow: none;
+            margin-bottom: 10px;
+        }
+    }
+  }
+
+  hr{
+    margin-top: 50px;
+    color: #989898;
+  }
+}
+
+
+
+
+footer{
+  .footer-copyright{
+    font-weight: 600;
+  }
+}
+
